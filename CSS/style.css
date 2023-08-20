@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: #404258;
+}
+
+h1 {
+  color: #fff;
+  margin: 0 auto;
+}
+
+.Th1 {
+  color: #fff;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #50577A;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  /* Adicione esta linha para posicionar no topo */
+  left: 0;
+  /* Mantém na esquerda */
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-list {
+  list-style-type: none;
+  /* Isso remove as bolinhas das listas não ordenadas */
+  padding: 0;
+  /* Remove o espaçamento padrão da lista */
+}
+
+.menu-list li {
+  margin-bottom: 23px;
+  /* Espaçamento vertical entre os botões */
+}
+
+.menu-list a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 27px;
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 100%;
+  /* Faz os botões ocuparem toda a largura do sidebar */
+  box-sizing: border-box;
+  /* Inclui borda e padding na largura total */
+}
+
+.menu-list a:hover {
+  background-color: rgba(255, 255, 255, 0.177);
+}
+
+/* layout do cadastro */
